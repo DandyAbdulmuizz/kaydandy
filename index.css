@@ -1,0 +1,98 @@
+ /* Example media query for adjusting styles on smaller screens */
+   @media (max-width: 768px)
+    /* Add your responsive CSS rules here */{}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: url(R.jpg);
+}
+.muizz{
+    height: 50vh;
+}
+.mus{
+    text-align: center;
+    margin: auto;
+    height: 30vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 30px;
+    color: black;
+    padding-left:20px ;
+}
+.logo span{
+    color: crimson;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul li{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+.nav ul li a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: crimson;
+    font-size: 20px; 
+}
+.welcome{
+    font-size: 20px;
+}
+.soo{
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+.soo h1{
+    font-size: 45px;
+}
+.soo h3{
+    font-size: 35px;
+}
+.soo h3 span{
+    font-size: 35px;
+    color: crimson;
+}
+.div h3{
+    font-size: 30px;
+}
+.business{
+    margin-top: 30px;
+}
+.business h4{
+    font-size: 30px;
+}
+
+.butt a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+}
+
+    .butt{
+    border: 1px solid white;
+    background: none;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    height: 04vh;
+    margin-top: 5px;
+    box-shadow: 3px 5px 6px #000;
+    border-radius: 20%;
+}
+.footer{
+    margin-top: 30px;
+    font-size: 25px;
+}
